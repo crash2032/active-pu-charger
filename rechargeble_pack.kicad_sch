@@ -3141,6 +3141,12 @@
 		(uuid "18e422a7-b560-448f-acd0-01f79c2b3ee7")
 	)
 	(junction
+		(at 31.75 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b8292a7-a03d-4472-b026-44e086cb79b4")
+	)
+	(junction
 		(at 259.08 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3157,12 +3163,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3148e684-02a7-474e-afd0-e0ba163b5938")
-	)
-	(junction
-		(at 54.61 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48738e9f-28c9-4daf-9571-ec778ea0828f")
 	)
 	(junction
 		(at 173.99 130.81)
@@ -3374,6 +3374,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 50.8) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03c46687-cb2d-4dfc-a9cd-a5afff632969")
+	)
+	(wire
+		(pts
 			(xy 186.69 107.95) (xy 186.69 118.11)
 		)
 		(stroke
@@ -3414,6 +3424,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 45.72) (xy 27.94 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a968b30-2f4d-481a-86df-b34a777de815")
+	)
+	(wire
+		(pts
 			(xy 247.65 118.11) (xy 256.54 118.11)
 		)
 		(stroke
@@ -3421,6 +3441,16 @@
 			(type default)
 		)
 		(uuid "0afc9ebc-b82e-47f7-af66-c7917319e019")
+	)
+	(wire
+		(pts
+			(xy 27.94 50.8) (xy 31.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b1ad9f0-aa08-49a8-9a4d-478388579691")
 	)
 	(wire
 		(pts
@@ -3451,16 +3481,6 @@
 			(type default)
 		)
 		(uuid "0f6785f2-68cc-4b35-b13b-be6998c5da1a")
-	)
-	(wire
-		(pts
-			(xy 58.42 74.93) (xy 58.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1666fabc-8e20-41d4-9a76-fbd033afb599")
 	)
 	(wire
 		(pts
@@ -3551,16 +3571,6 @@
 			(type default)
 		)
 		(uuid "223e9a5a-5ac0-4432-8b17-178970aea5ad")
-	)
-	(wire
-		(pts
-			(xy 54.61 50.8) (xy 58.42 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23f84f9f-e1b6-4fd5-9717-e6f75ee3681e")
 	)
 	(wire
 		(pts
@@ -3694,7 +3704,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 149.86) (xy 165.1 149.86)
+			(xy 173.99 149.86) (xy 176.53 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3771,16 +3781,6 @@
 			(type default)
 		)
 		(uuid "55bb9f80-6ff2-4155-8e5d-0d6606277963")
-	)
-	(wire
-		(pts
-			(xy 31.75 50.8) (xy 54.61 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "567499ff-ff26-4222-8eb3-08097eabd7fe")
 	)
 	(wire
 		(pts
@@ -4244,6 +4244,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 58.42) (xy 58.42 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d4376a-514e-4606-a486-65d3a4c05520")
+	)
+	(wire
+		(pts
 			(xy 58.42 50.8) (xy 71.12 50.8)
 		)
 		(stroke
@@ -4383,7 +4393,7 @@
 		(uuid "feb4e4b3-d4c1-438b-8c95-ff981401ce32")
 	)
 	(label "OUT_EN"
-		(at 165.1 149.86 0)
+		(at 176.53 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,7 +4562,7 @@
 				)
 			)
 		)
-		(property "Value" "10mH"
+		(property "Value" "10µH"
 			(at 262.89 21.59 90)
 			(effects
 				(font
@@ -6538,7 +6548,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 82.55 0)
+		(at 58.42 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6547,7 +6557,7 @@
 		(fields_autoplaced yes)
 		(uuid "549a1856-7ed2-42ef-86ba-15d28508536a")
 		(property "Reference" "#PWR031"
-			(at 58.42 88.9 0)
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6566,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 58.42 87.63 0)
+			(at 58.42 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6574,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 82.55 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 82.55 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 82.55 0)
+			(at 58.42 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6747,7 +6757,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 58.42 78.74 0)
+		(at 58.42 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6756,7 +6766,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f867e50-1d81-4e3d-99b7-f1306e437dba")
 		(property "Reference" "C14"
-			(at 62.23 77.4699 0)
+			(at 62.23 53.3399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,7 +6775,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 62.23 80.0099 0)
+			(at 62.23 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6774,7 +6784,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 59.3852 82.55 0)
+			(at 59.3852 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6783,7 +6793,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 78.74 0)
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6792,7 +6802,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 58.42 78.74 0)
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7703,7 +7713,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 54.61 50.8 0)
+		(at 27.94 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7712,7 +7722,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ecaa280-0c6c-4bb3-a442-484cef732df8")
 		(property "Reference" "#PWR030"
-			(at 54.61 54.61 0)
+			(at 27.94 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7721,7 +7731,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 54.61 45.72 0)
+			(at 27.94 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7729,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 50.8 0)
+			(at 27.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 50.8 0)
+			(at 27.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,7 +7757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 54.61 50.8 0)
+			(at 27.94 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8008,7 +8018,7 @@
 				)
 			)
 		)
-		(property "Value" "10mH"
+		(property "Value" "10µH"
 			(at 199.39 115.57 90)
 			(effects
 				(font
@@ -8076,7 +8086,7 @@
 				)
 			)
 		)
-		(property "Value" "10mH"
+		(property "Value" "10µH"
 			(at 262.89 115.57 90)
 			(effects
 				(font
