@@ -19,9 +19,9 @@ This **open-source** project offers a **smart, rechargeable battery pack** desig
 
 ## 🚀 Get Started
 ### Fabricate your own
-1. **Download** the Gerber files from the `gerbers/` directory
+1. **Download** the `Gerbers.zip`
 2. **Order** PCB fabrication from your preferred manufacturer
-3. **Gather** components listed in the `BOM`
+3. **Gather** components listed in the `PU-BOM.xlsx`
 4. **Assemble** according to your needs
 
 ### Customize
