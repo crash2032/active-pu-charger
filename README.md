@@ -1,5 +1,7 @@
 # Rechargeable Battery Pack For Active Guitar Pickups 🎸🔋
 
+## Based on https://www.freestompboxes.org/viewtopic.php?t=32759
+
 ## 🔥 Overview
 This **open-source** project offers a **smart, rechargeable battery pack** designed specifically for **active guitar pickups** such as **EMG, Fishman Fluence, Seymour Duncan,** and similar. The design provides **noise-free** performance, **automatic shutdown** when the cable is disconnected (requires stereo jack), and includes a **charging indicator** for a seamless playing experience.
 
