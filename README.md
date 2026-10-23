@@ -79,6 +79,18 @@ Notes:
 - D3 (Lite-On LTST-C295KGKRKT) has no 3D model in the KiCad library, so it is not shown in the 3D viewer.
 - Silkscreen reference designators are kept on the Fab layer (0402 parts are too small for the 1 mm minimum silkscreen text).
 
+## Contacts
+
+Designed by **[Abyss Sound Studio](https://abyss-prod.com/)** — mixing, mastering, video and photo for rock & metal musicians.
+
+- Website: [abyss-prod.com](https://abyss-prod.com/)
+- Instagram: [@abyss.sound.studio](https://www.instagram.com/abyss.sound.studio/) (best way to get in touch)
+- YouTube: [@AbyssSoundStudio](https://www.youtube.com/@AbyssSoundStudio)
+- Facebook: [abyss.sound.studio](https://www.facebook.com/abyss.sound.studio)
+- SoundCloud: [abyss-sound-studio](https://soundcloud.com/abyss-sound-studio/sets/our-work)
+
+Questions, bugs and improvements for this board: open an issue or pull request on GitHub.
+
 ## Contributing
 
 Contributions are welcome — fork the repo and open a pull request.
