@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "active_pu")(type "KiCad")(uri "${KIPRJMOD}/active_pu.kicad_sym")(options "")(descr "active-pu-charger project symbols"))
+)

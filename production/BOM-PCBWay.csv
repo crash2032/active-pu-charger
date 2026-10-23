@@ -1,0 +1,35 @@
+Line#,Qty,Designator,Manufacturer,MPN,Description,Package,Type,LCSC # (reference),Notes
+1,5,"C1,C4,C8,C9,C20",Murata,GRM155R71H104KE14D,100nF 50V X7R ±10% 0402,0402,SMD,C307331,Equivalent (same value/voltage/dielectric/size) accepted
+2,2,"C2,C3",Samsung,CL21A106KBYNNNE,10uF 50V X5R ±10% 0805,0805,SMD,C440198,Equivalent (same value/voltage/dielectric/size) accepted
+3,1,C5,Murata,GRM21BR61E226ME44L,22uF 25V X5R ±20% 0805,0805,SMD,C45783,Equivalent (same value/voltage/dielectric/size) accepted
+4,4,"C6,C13,C18,C19",Murata,GRM21BR61E106KA73L,10uF 25V X5R ±10% 0805,0805,SMD,C15850,Equivalent (same value/voltage/dielectric/size) accepted
+5,1,C7,Murata,GRM31CR61E226KE15L,22uF 25V X5R ±10% 1206,1206,SMD,C12891,Equivalent (same value/voltage/dielectric/size) accepted
+6,1,C10,Murata,GRM1555C1H100JA01D,10pF 50V C0G ±5% 0402,0402,SMD,C32949,Equivalent (same value/voltage/dielectric/size) accepted
+7,4,"C11,C12,C14,C16",Murata,GRM155R71C104KA88D,100nF 16V X7R ±10% 0402,0402,SMD,C1525,Equivalent (same value/voltage/dielectric/size) accepted
+8,1,C15,Murata,GRM155R60J225ME15D,2.2uF 6.3V X5R ±20% 0402,0402,SMD,C12530,Equivalent (same value/voltage/dielectric/size) accepted
+9,2,"C21,C22",Murata,GRM155R71H103KA88D,10nF 50V X7R ±10% 0402,0402,SMD,C15195,Equivalent (same value/voltage/dielectric/size) accepted
+10,1,D1,Changjiang (CJ),B5819W SL,Schottky 40V 1A SOD-123 (equivalent B5819W OK),SOD-123,SMD,C8598,
+11,1,D3,Lite-On,LTST-C295KGKRKT,"Bi-color LED red+green 0603 4-pin (pin1 green anode, pin2 red anode)",0603 4-pin,SMD,C364568,
+12,1,D5,MDD,SMF5.0A,TVS 5V unidirectional SOD-123F (Littelfuse SMF5.0A OK),SOD-123F,SMD,C193402,
+13,1,L1,Sunlord,SWPA3015S100MT,10uH 0.77A shielded power inductor 3x3x1.5mm,3x3mm,SMD,C45403,
+14,3,"Q2,Q7,Q9",Nexperia,"BC857C,215",PNP 45V 100mA hFE 420-800 SOT-23,SOT-23,SMD,C2149,
+15,2,"Q6,Q8",onsemi,MMBT3904LT1G,NPN 40V 200mA SOT-23,SOT-23,SMD,C20526,
+16,1,R1,Yageo,RC0402FR-0720KL,Resistor 20k ±1% 1/16W 0402,0402,SMD,C25765,Equivalent 1% 0402 accepted
+17,1,R2,Yageo,RC0402FR-0710RL,Resistor 10R ±1% 1/16W 0402,0402,SMD,C25077,Equivalent 1% 0402 accepted
+18,7,"R4,R7,R12,R16,R18,R20,R22",Yageo,RC0402FR-071ML,Resistor 1M ±1% 1/16W 0402,0402,SMD,C26083,Equivalent 1% 0402 accepted
+19,1,R5,Yageo,RC0402FR-07470KL,Resistor 470k ±1% 1/16W 0402,0402,SMD,C25790,Equivalent 1% 0402 accepted
+20,2,"R6,R26",Yageo,RC0402FR-07330KL,Resistor 330k ±1% 1/16W 0402,0402,SMD,C25778,Equivalent 1% 0402 accepted
+21,1,R8,Yageo,RC0402FR-07120KL,Resistor 120k ±1% 1/16W 0402,0402,SMD,C25750,Equivalent 1% 0402 accepted
+22,2,"R10,R11",Yageo,RC0402FR-071KL,Resistor 1k ±1% 1/16W 0402,0402,SMD,C11702,Equivalent 1% 0402 accepted
+23,1,R13,Yageo,RC0402FR-0710ML,Resistor 10M ±1% 1/16W 0402,0402,SMD,C26082,Equivalent 1% 0402 accepted
+24,1,R14,Yageo,RC0402FR-07510KL,Resistor 510k ±1% 1/16W 0402,0402,SMD,C11616,Equivalent 1% 0402 accepted
+25,3,"R15,R19,R21",Yageo,RC0402FR-07100KL,Resistor 100k ±1% 1/16W 0402,0402,SMD,C25741,Equivalent 1% 0402 accepted
+26,1,R17,Yageo,RC0402FR-07220KL,Resistor 220k ±1% 1/16W 0402,0402,SMD,C25767,Equivalent 1% 0402 accepted
+27,1,R23,Yageo,RC0402FR-0747RL,Resistor 47R ±1% 1/16W 0402,0402,SMD,C25118,Equivalent 1% 0402 accepted
+28,1,R25,Yageo,RC0402FR-071RL,Resistor 1R ±1% 1/16W 0402,0402,SMD,C25086,Equivalent 1% 0402 accepted
+29,1,R27,Yageo,RC0402FR-0749K9L,Resistor 49.9k ±1% 1/16W 0402,0402,SMD,C25897,Equivalent 1% 0402 accepted
+30,1,Rref1,Yageo,RC0402FR-072KL,Resistor 2k ±1% 1/16W 0402,0402,SMD,C4109,Equivalent 1% 0402 accepted
+31,1,U1,UMW,TP4057,"Li-ion linear charger 500mA, CHRG/STDBY, SOT-23-6 (LCSC C725791)",SOT-23-6,SMD,C725791,
+32,1,U2,Texas Instruments,TPS61041DBVR,"Boost converter 28V, SOT-23-5",SOT-23-5,SMD,C9846,
+33,1,U3,Texas Instruments,TLV3012AIDBVR,"Nanopower comparator with 1.242V reference, push-pull, SOT-23-6",SOT-23-6,SMD,C62505,
+34,1,U4,Texas Instruments,TPS7A4901DGNR,"36V 150mA ultra-low-noise adjustable LDO, HVSSOP-8 PowerPAD (solder exposed pad!)",HVSSOP-8-EP (DGN),SMD,C16430,

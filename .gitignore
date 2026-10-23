@@ -1,0 +1,18 @@
+# KiCad backups, caches and local state
+*-backups/
+fp-info-cache
+*.kicad_prl
+~*.lck
+*.lck
+_autosave-*
+*.bak
+*-bak
+\#auto_saved_files#
+
+# Generated reports / local exports
+*.rpt
+/gerbers/
+
+# OS junk
+.DS_Store
+Thumbs.db
